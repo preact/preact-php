@@ -13,13 +13,14 @@
     * @return LN JSON Response
     */
     public static function post_message($data, $endPoint) {
+      $data_string = '';
       foreach($data as $key => $value) {
         $data_string .= $key.'='.HTML_Entity_Decode($value, ENT_QUOTES, 'UTF-8').'&';
       }
       rtrim($data_string, '&');
 
       $ch = curl_init();
-      curl_setopt($ch, CURLOPT_URL, self::api_url.$endPoint;);
+      curl_setopt($ch, CURLOPT_URL, self::api_url.$endPoint);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
       curl_setopt($ch, CURLOPT_USERPWD, self::api_project_code . ":" . self::api_secret);
       curl_setopt($ch, CURLOPT_POST, count($data));

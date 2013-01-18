@@ -2,7 +2,7 @@
   Class LessNeglect {
     const api_project_code = '<your project code here>';
     const api_secret = '<your project secret here>';
-    const api_url = 'https://lessneglect.com/api/v2/';
+    const api_url = 'https://api.lessneglect.com/api/v2/';
     const api_events_endpoint = 'events';
     const api_person_endpoint = 'people';
 

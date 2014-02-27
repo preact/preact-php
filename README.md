@@ -1,11 +1,11 @@
-lessneglect-php
+preact-php
 ===============
 
-Less Neglect client logging library for PHP
+Preact client logging library for PHP
 
 ##Example usage##
     <?php
-    include_once('LessNeglect.php');
+    include_once('Preact.php');
     $eventdata = Array(
       'person[name]' => 'gooley@lessneglect.com',
       'person[email]' => 'Christopher Gooley',
@@ -17,3 +17,7 @@ Less Neglect client logging library for PHP
     );
     LessNeglect::log_event($eventdata);
     ?>
+
+License
+--
+Copyright (c) 2012-2014 Preact, Inc. See LICENSE.md for further details.

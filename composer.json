@@ -1,0 +1,12 @@
+{
+  "name": "preact-php",
+  "description": "PHP API Library for Preact",
+  "version": "0.2",
+  "type": "library",
+  "keywords": ["preact", "PHP", "API"],
+  "homepage": "https://github.com/preact/preact-php",
+  "license": "The MIT License",
+  "autoload": {
+    "files": ["Preact.php"]
+  }
+}

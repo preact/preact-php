@@ -26,4 +26,3 @@
     );
 
     $resp = $preact->log_event($eventdata);
-    var_dump($resp);

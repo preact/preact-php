@@ -7,7 +7,7 @@
         const API_URL = 'https://api.preact.io/api/v2/events';
 
         /**
-        * Create a Preact object use in logging events.
+        * Create a Preact object for use in logging events.
         * @param array $api_config An array containing the Project Code and API Secret
         */
         public function __construct(array $api_config)
@@ -57,7 +57,7 @@
         */
         public function log_event($event_data) {
 
-            // invalid event data
+            // check for valid event data
             if (!$this->validate_event_data($event_data)) {
                 return false;
             }

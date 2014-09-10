@@ -2,7 +2,7 @@
   Class LessNeglect {
     const api_project_code = '<your project code here>';
     const api_secret = '<your project secret here>';
-    const api_url = 'https://api.lessneglect.com/api/v2/events';
+    const api_url = 'https://api.preact.io/api/v2/events';
 
     /**
     * Posts data to the specified url endpoint
